@@ -1,0 +1,21 @@
+{
+  "name": "tinkercad-svg-extractor",
+  "version": "1.0.0",
+  "description": "Feur is a chrome extension that allows you to easily extract images for certain websites, and save them locally.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.245",
+    "@types/node": "^20.6.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
