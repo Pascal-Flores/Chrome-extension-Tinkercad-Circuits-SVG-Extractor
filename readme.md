@@ -6,7 +6,7 @@
 2. You have now a .zip file. Extract it in an empty directory.
 3. Open google chrome and go to the [extensions page](chrome://extensions/). 
 4. Enable the "Developer mode" and click on "Load unpacked".
-5. Select the repository folder.
+5. Select the extension directory.
 6. Done !
 
 ## From source
@@ -27,7 +27,7 @@ npm install
 npm run build
 ```
 
-3. You have now a dist folder. Open google chrome and go to the [extensions page](chrome://extensions/). 
+3. You have now a dist folder in your repository folder. Open google chrome and go to the [extensions page](chrome://extensions/). 
 4. Enable the "Developer mode" and click on "Load unpacked". 
 5. Select the repository folder.
 6. Done !
